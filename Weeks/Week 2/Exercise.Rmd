@@ -1,0 +1,20 @@
+---
+title: "Exercise"
+author: "Daniel Orchard"
+date: "1/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+## Data
+
+``` {r}
+normal <- rnorm(100)
+mean(normal)
+hist(normal)
+plot(density(normal))
+```
